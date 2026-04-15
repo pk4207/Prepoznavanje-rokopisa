@@ -1,0 +1,18 @@
+PRIMERJAVA MODELOV
+run_dir=rezultati/run_2026-04-11_19-18-43
+dataset=emnist/balanced
+
+HEAD TO HEAD
+test_accuracy: nadgrajeni (osnovni=0.8755, nadgrajeni=0.8833)
+test_accuracy_razlika_pp=+0.78
+best_val_accuracy: nadgrajeni (osnovni=0.8837, nadgrajeni=0.8908)
+val_accuracy_razlika_pp=+0.71
+training_time_seconds: osnovni (osnovni=24.8100 s, nadgrajeni=223.9100 s)
+cas_treniranja_razmerje=9.02x
+inference_ms_per_image: nadgrajeni (osnovni=0.6740 ms, nadgrajeni=0.1717 ms)
+model_size_mb: osnovni (osnovni=1.1100 MB, nadgrajeni=13.8600 MB)
+trainable_parameters: osnovni (osnovni=94063, nadgrajeni=902575)
+
+PRIPOROCILO
+priporocen_model=nadgrajeni
+razlog=Nadgrajeni model je nekoliko natancnejsi.

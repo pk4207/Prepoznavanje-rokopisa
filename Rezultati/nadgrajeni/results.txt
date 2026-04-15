@@ -1,0 +1,32 @@
+MODEL REPORT
+model_name=nadgrajeni
+dataset=emnist/balanced
+run_dir=rezultati/run_2026-04-11_19-18-43
+
+HYPERPARAMETERS
+batch_size=128
+epochs_requested=40
+epochs_ran=38
+validation_split=0.1
+random_seed=42
+optimizer=AdamW
+initial_learning_rate=0.0003
+weight_decay=0.0001
+learning_rate_schedule=CosineDecay
+decay_steps=31760
+use_ema=True
+ema_momentum=0.99
+augmentation=random_rotation_0.05,random_zoom_0.05,random_translation_0.08
+head=Flatten+Dense(128)+Dropout(0.4)+Dense(47)
+
+MODEL INFO
+num_classes=47
+trainable_parameters=902575
+model_size_mb=13.86
+
+RESULTS
+best_val_accuracy=0.8908
+test_loss=0.3394
+test_accuracy=0.8833
+training_time_seconds=223.91
+inference_ms_per_image=0.1717

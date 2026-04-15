@@ -1,0 +1,23 @@
+MODEL REPORT
+model_name=osnovni
+dataset=emnist/balanced
+run_dir=rezultati/run_2026-04-11_19-18-43
+
+HYPERPARAMETERS
+batch_size=128
+epochs_requested=10
+epochs_ran=10
+validation_split=0.1
+random_seed=42
+
+MODEL INFO
+num_classes=47
+trainable_parameters=94063
+model_size_mb=1.11
+
+RESULTS
+best_val_accuracy=0.8837
+test_loss=0.3712
+test_accuracy=0.8755
+training_time_seconds=24.81
+inference_ms_per_image=0.6740
